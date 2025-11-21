@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafetería Yoongi - Deliciosos Muffins y Pasteles</title>
+    <body style="background-color: #ba2222;"style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        
+    </body>
+
 </head>
 <body>
     <!-- Cabecera de la página -->
@@ -11,13 +15,14 @@
         <h1>Cafetería Yoongi</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#menu">Menú</a></li>
             </ul>
         </nav>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE3c9zWiRU_UYRC7cKcc23TS5O-3XEFliT-w&s" alt="Logo Cafetería Yoongi" width="200">
+        <img src="https://i.pinimg.com/1200x/9c/ec/fd/9cecfdce3653a3deb702508c2cf104be.jpg" alt="Logo Cafetería Yoongi" width="200">
+        <body style="background-color: #915c5c;"></body>
     </header>
 
     <!-- Contenido principal -->
@@ -28,8 +33,13 @@
             <p>Somos una empresa dedicada a la venta de muffins y pasteles deliciosos.</p>
         </section>
 
+        <!--nosotros-->
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En Cafetería Yoongi, nos apasiona crear productos de alta calidad que deleiten a nuestros clientes. Utilizamos ingredientes frescos y técnicas artesanales para garantizar que cada muffin y pastel sea una experiencia única.</p>
+
         <!-- Sección de promociones -->
-        <section>
+        <section id="promociones">
             <h2>Promociones Especiales</h2>
             <ul>
                 <li><strong>2×1</strong> en productos Yoongi los lunes y viernes</li>
@@ -39,19 +49,29 @@
         </section>
 
         <!-- Sección del menú -->
-        <section>
-            <h2>Nuestro Menú</h2>
+        <section id="menu">
+            <h2 >Nuestro Menú</h2>
             <article>
                 <h3>Pay de Limón</h3>
                 <img src="https://i.pinimg.com/1200x/0e/c9/41/0ec9411bebad8e807b2ab6bc9f0417de.jpg" alt="Pay de limón" width="200">
                 <p>Delicioso pay de limón con base de galleta y crema de limón.</p>
                 <p><strong>Precio: $200</strong></p>
-                <button>Agregar al carrito</button>
+                <button style="border-radius: 12px;background-color: rgb(196, 62, 198); color: white;">Agregar al carrito</button>
+            </article>
+            <article>
+                <h3>Muffin de Chocolate</h3>
+                <body style="background-color: #4d1e1e;">
+                    
+                </body>
+                <img src="https://i.pinimg.com/736x/41/03/61/41036101809a80b3f8b37a9d0c66aa01.jpg" alt="Muffin de Chocolate" width="200">
+                <p>Esponjoso muffin de chocolate con chispas de chocolate.</p>
+                <p><strong>Precio: $50</strong></p>
+                <button style="border-radius: 12px;background-color: #915c5c;">Agregar al carrito</button>
             </article>
         </section>
 
         <!-- Sección de recetas -->
-        <section>
+        <section >
             <h2>Receta del Mes: Pastel de Zanahoria</h2>
             <p>Aquí tienes una receta sencilla para preparar un delicioso pastel de zanahoria:</p>
             
@@ -69,13 +89,20 @@
                 <li>1 taza de piña triturada (opcional)</li>
             </ol>
         </section>
+        <h3>Pedidos</h3>
+
+
         <!-- Formulario de contacto -->
+        
         <form action="">
             <label for="">nombre completo:</label>
             <input type="text" placeholder="aqui va tu nombre">
 
             <label for="">celular</label>
             <input type="number" placeholder="aqui va tu numero">
+
+            <label for="">coreo electronico</label>
+            <input type="email" placeholder="aqui va tu correo">
 
             <label for="">sabor de pastel:</label>
             <option value="">selecciona un sabor</option>
@@ -96,20 +123,22 @@
             <input type="date" name="" id="">
             <label for="">imagen de referencia</label>
             <input type="file" name="" id="">
-            <button type="submit">enviar</button>
+            <button type="submit">enviar pedido</button>
+
             
         </form>
     </main>
 
     <!-- Pie de página -->
     <footer>
-        <section>
+        <section id="contacto">
             <h3>Contacto</h3>
             <p>Visítanos en nuestras redes sociales:</p>
             <ul>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">WhatsApp</a></li>
+                <li><a href="#">Nosotros</a></li>
                 <li><a href="https://i.pinimg.com/1200x/eb/fa/56/ebfa569b45d5857d0360c5ca5e71c9c2.jpg" target="_blank">Pinterest</a></li>
             </ul>
         </section>
