@@ -10,7 +10,7 @@ body{
     color: #003366;  
 }
 style {
-    display: none; /* Oculta la etiqueta style en el HTML */
+    display: none; 
 }
 header, main, footer{
     width: 100%;
@@ -27,7 +27,7 @@ header, main, footer{
     font-weight: bold;
 }
 
-/* NAV */
+/* nav principal */
 .nav-principal{
     background-color: #2a6672;
     padding: 15px 25px;
@@ -40,4 +40,38 @@ header, main, footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+}
+
+/* la navegacion */
+.nav-lista{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-lista a{
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-lista a:hover{
+    color: #ff6b35;
+}
+
+/* estilo para las imagenes con width */
+img[width] {
+    border: 2px solid #00b4d8;
+    transition: transform .3s ease;
+}
+
+img[width]:hover {
+    transform: scale(1.05);
 }
