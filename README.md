@@ -1,7 +1,6 @@
-🧩 Proyecto Final: Mi Primera Página Web
+🧩 Proyecto Final: Pagina de Animales Marinos
 🚀 Skills Utilizadas
 
-JavaScript
 
 HTML
 
